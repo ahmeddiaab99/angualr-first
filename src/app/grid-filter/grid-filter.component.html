@@ -1,0 +1,177 @@
+<mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          الفئة
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          الموبايلات والتابليت
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          التلفاز والشاشات
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+        <label class="form-check-label" for="flexRadioDefault3">
+          اجهزة اللابتوب
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+        <label class="form-check-label" for="flexRadioDefault4">
+          الإكسسوارات
+        </label>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          الماركه
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <div class="input-group">
+        <div class="form-outline">
+          <input type="search" id="form1" class="form-control" style="margin-bottom: 16px;"/>
+        </div>
+      </div>
+
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          هواوي
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+           ابل
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+        <label class="form-check-label" for="flexRadioDefault3">
+          سامسونج 
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+        <label class="form-check-label" for="flexRadioDefault4">
+          اتش بي
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5" checked>
+        <label class="form-check-label" for="flexRadioDefault5">
+          سوني 
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6" checked>
+        <label class="form-check-label" for="flexRadioDefault6">
+          شاومي 
+        </label>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          السعر
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <form>
+        <div class="row">
+          <div class="col">
+            <label for="inputState">من</label>
+            <input type="text" class="form-control" placeholder="5000">
+          </div>
+          <div class="col">
+            <label for="inputState">الي</label>
+            <input type="text" class="form-control" placeholder="6000">
+          </div>
+         
+            <a href="#">Go</a>
+
+          
+
+        </div>
+      </form>
+      
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          الألوان
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="list-colors">
+          <ul>
+              <li class="black"></li>
+              <li class="red"></li>
+              <li class="green"></li>
+              <li class="blue"></li>
+              <li class="gray"></li>
+          </ul>
+          <ul>
+            <li class="black"></li>
+            <li class="red"></li>
+            <li class="green"></li>
+            <li class="blue"></li>
+            <li class="gray"></li>
+        </ul>
+      </div>
+      
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          تقييم المنتج
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+     <div class="row">
+        <div class="col">
+            <ul class="rate-area">
+                <input type="radio" id="5-star" name="crating" value="5">
+<label for="5-star" title="Amazing">5 stars</label>
+                <input type="radio" id="4-star" name="crating" value="4">
+<label for="4-star" title="Good">4 stars</label>
+                <input type="radio" id="3-star" name="crating" value="3">
+<label for="3-star" title="Average">3 stars</label>
+                <input type="radio" id="2-star" name="crating" value="2">
+<label for="2-star" title="Not Good">2 stars</label>
+                <input type="radio" id="1-star" required=""
+ name="crating" value="1" aria-required="true">
+<label for="1-star" title="Bad">1 star</label>
+              </ul>
+        </div>
+        
+     </div>
+
+      
+    </mat-expansion-panel>
+  </mat-accordion>

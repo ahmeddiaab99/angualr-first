@@ -1,0 +1,133 @@
+.home-model{
+    padding: 30px 0;
+}
+
+.btn {
+    box-shadow: none !important;
+    outline: 0;
+  }
+  .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  .list-group-item a.btn.collapsed span {
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    transition: .3s transform ease-in-out;
+  }
+
+  .list-group-item .collapsed span {
+    transform: rotate(-140deg);
+    -webkit-transform: rotate(-140deg);
+    margin-top: 10px;
+  }
+  .list-group-item {
+      border: transparent;
+  }
+  a:link,
+  a:visited {
+    color: #222;
+  }
+  
+  a:hover,
+  a:focus {
+    color: orange;
+  }
+  
+  .list-group-item span {
+    border: solid #222;
+    border-width: 0 1px 1px 0;
+    display: inline;
+    cursor: pointer;
+    padding: 3px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+  }
+  
+  .list-group-item a.btn.collapsed span {
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    transition: .3s transform ease-in-out;
+  }
+  
+  .list-group-item a.btn span {
+    transform: rotate(-140deg);
+    -webkit-transform: rotate(-140deg);
+    transition: .3s transform ease-in-out;
+  }
+  .card{
+    margin-bottom: 20px;
+  }
+  .card-body{
+    padding: 2px 11px;
+  }
+.card-footer{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-footer .price span{
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+
+mat-accordion{
+  padding: 20px 0;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.checked {
+  color: orange;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.rate{
+  direction: rtl;
+}
+.rate2{
+  
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */

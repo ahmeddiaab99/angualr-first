@@ -1,0 +1,18 @@
+.bread{
+    padding: 15px 0;
+}
+ul{
+    list-style :none;
+    font-size: 19px;
+}
+li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.active{
+    color: rgb(145, 196, 245);
+    cursor: pointer;
+}
+span i{
+    font-size: 12px !important;
+}

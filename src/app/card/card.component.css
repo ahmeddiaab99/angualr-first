@@ -1,0 +1,40 @@
+.cards{
+    margin-top: 20px;
+}
+.mat-card{
+    margin-bottom: 20px;
+}
+.mat-card-actions{
+    display: inline-block;
+}
+.price{
+    float: right;
+}
+.mat-card-actions{
+    width: 100%;
+}
+
+.pagination{
+    justify-content: center;
+}
+.active{
+    background-color: cornflowerblue;
+}
+.a{
+    font-size: 14px;
+}
+.a span{
+    text-decoration: line-through;
+}
+.b{
+    text-align: left;
+}
+i{
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: 21px;
+    color: #138dce;
+}
+.mat-card-actions{
+
+}

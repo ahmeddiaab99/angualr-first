@@ -1,0 +1,183 @@
+img{
+    width: 50px;
+    cursor: pointer;
+    float: leftx ;
+}
+mat-expansion-panel{
+    top: -86px;
+}
+.st{
+    width: 30%;
+}
+p{
+    margin : 0;
+    padding: 0;
+    align-items: center;
+    padding-top: 10px;
+}
+.form-select{
+    padding: 3px 35px;
+}
+
+.example-h2 {
+    margin: 10px;
+  }
+  
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .example-margin {
+    margin: 0 10px;
+  }
+.filter{
+    padding: 0 10px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    padding-top: 15px;
+}
+select{
+    width: 130px;
+}
+i{
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+mat-checkbox{
+    direction: ltr;
+}
+input{
+    display: inline;
+    
+}
+.ref{
+    padding: 5px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+mat-expansion-panel{
+    margin-top: 15px;
+}
+
+.form-check-input[type=radio] {
+    border-radius: 14%;
+}
+
+.black{
+    padding: 0 15px;
+    width: 9px;
+    height: 22px;
+    background-color: black;
+}
+.red{
+    padding: 0 15px;
+    width: 9px;
+    height: 22px;
+    background-color: red;
+}
+.gray{
+    padding: 0 15px;
+    width: 9px;
+    height: 22px;
+    background-color: gray;
+}
+.blue{
+    padding: 0 15px;
+    width: 9px;
+    height: 22px;
+    background-color: blue;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(13 131 200);
+    width: 138px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+
+
+/* 
+
+*/
+
+.rate-area {
+    float:left;
+    border-style: none;
+}
+
+.rate-area:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rate-area:not(:checked) > label {
+    float: right;
+    width: .80em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 32px;
+    color: lightgrey;
+    margin-bottom: 10px !important;
+}
+
+.rate-area:not(:checked) > label:before {
+    content: '★';
+}
+
+.rate-area > input:checked ~ label {
+    color: #f3ca45;
+    text-shadow: none;
+}
+
+.rate-area:not(:checked) > label:hover,
+.rate-area:not(:checked) > label:hover ~ label {
+    color: #f3ca45;
+    
+}
+
+.rate-area > input:checked + label:hover,
+.rate-area > input:checked + label:hover ~ label,
+.rate-area > input:checked ~ label:hover,
+.rate-area > input:checked ~ label:hover ~ label,
+.rate-area > label:hover ~ input:checked ~ label {
+    color: #f3ca45;
+    text-shadow: none;
+    
+}
+
+.rate-area > label:active {
+    position:relative;
+    top:0px;
+    left:0px; 
+}
+
+mat-panel-title{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: -webkit-pictograph;
+}
+label{
+    font-size: 17px;
+    margin-bottom: 13px;
+}
